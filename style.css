@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playball',cursive;
+}
+body{
+    background-color:#d6a880;
+    font-family: 'Playball',cursive;
+}
+
+.cont1{
+   width: 100%; 
+   height:100vh;
+}
+.navbar{
+    background-color: #efcead;
+}
+.logo{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+}
+.navbar-nav{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.nav-item .nav-link{
+    margin-left: 10px;
+    font-weight: bold;
+    color:black;   
+    letter-spacing: 2px;
+}
+.nav-item .nav-link:hover{
+    color: beige;
+    transition: 0.8s;
+}
+
+.home{
+    width: 100%;
+    height: 91.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.home .content{
+    flex: 1 1 400px;
+    margin-left: 200px;
+}
+
+.home .content h5{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.home .content h3 {
+    font-size:50px ;
+    color: white;
+}
+.home .content p{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.footer{
+    background-color:#efcead ;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color:black;
+    margin-top: 40px;
+  }
+  
+  .socials{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socials a{
+    margin: 5px;
+    color: black;
+  }
+    
